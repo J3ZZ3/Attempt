@@ -1,0 +1,25 @@
+body {
+  font-family: oswald;
+background-color: rgb(87, 120, 190);
+  padding: 0;
+}
+
+nav {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.container {
+  margin-top: 50px;
+}
+
+h1,
+h2 {
+  color: #000000;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}

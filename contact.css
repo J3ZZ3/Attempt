@@ -1,0 +1,53 @@
+body {
+  font-family: Oswald;
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+label,
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
