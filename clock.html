@@ -3,55 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dice Roll Game</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    .container {
-      text-align: center;
-    }
-    .dice {
-      width: 100px;
-      height: 100px;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-    .roll-button {
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #4caf50;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    .roll-button:hover {
-      background-color: #45a049;
-    }
-  </style>
+  <title>Digital Clock</title>
+  <link rel="stylesheet" href="c.css">
 </head>
 <body>
-  <div class="container">
-    <div class="dice" id="dice"></div>
-    <button class="roll-button" onclick="rollDice()">Roll Dice</button>
+  <div class="clock">
+    <div class="time" id="time"></div>
   </div>
-
-  <script>
-    function rollDice() {
-      var diceElement = document.getElementById('dice');
-      var randomNumber = Math.floor(Math.random() * 6) + 1;
-      diceElement.textContent = randomNumber;
-    }
-  </script>
+  <script src="c.js"></script>
 </body>
 </html>
