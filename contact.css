@@ -57,3 +57,31 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+
+#social-links {
+  scale: 3;
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#social-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#social-links ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#social-links ul li a {
+  display: block;
+}
+
+footer {
+  background-color: #33333300;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}

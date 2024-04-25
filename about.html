@@ -1,63 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
       integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="about.css" />
-    <title>About Me</title>
-  </head>
-  <body>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <header>
     <nav>
-      <a href="main.html"
-        ><i class="fas fa-home fa-2x" style="color: black"></i
-      ></a>
+      <ul>
+        <li><a href="main.html"><i class="fas fa-home fa-2x" style="color: black"></i></a></li>
+
+      </ul>
     </nav>
-    <h1>About Me</h1>
-    <h2>Hi, I'm Jesse</h2>
-    <div class="container">
-      <p>
-        Welcome to my corner of the internet! I'm a passionate college student
-        with an insatiable curiosity for technology and a burning desire to
-        delve into the world of programming.
-      </p>
-      <p>
-        although I am currently pursuing a degree in Electrical Engineering, I'm
-        constantly fascinated by the ever-evolving landscape of technology. From
-        artificial intelligence to blockchain, I'm eager to explore the endless
-        possibilities that lie ahead.
-      </p>
-      <p>
-        My journey into programming began with a simple curiosity and has since
-        blossomed into a full-blown passion. I love the challenge of solving
-        problems and the satisfaction that comes with turning lines of code into
-        functional software.
-      </p>
-      <p>
-        When I'm not buried in textbooks or coding away on my laptop, you can
-        find me tinkering with gadgets all day. I believe that every line of
-        code I write brings me one step closer to achieving my goals.
-      </p>
-      <p>Thanks for stopping by!</p>
-      <center>
-        <p>
-          CHECK THE LINKS BELOW FOR MORE INFO<br /><a href="document.pdf"
-            >Resume</a
-          ><br /><a href="projects.html">Projects</a>
-        </p>
-      </center>
-    </div>
-  </body>
+  </header>
+  <main>
+    <section id="bio">
+      <h2>Biography</h2>
+      <p id="bioContent">Loading...</p>
+    </section>
+    <section id="resumeAndProjects">
+      <section id="resume">
+        <h2>Resume Preview</h2>
+        <button onclick="previewResume()">Preview Resume</button>
+        <div id="resumePreview"></div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <button onclick="previewProjects()">Preview Projects</button>
+        <div id="projectsPreview"></div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Your Name</p>
+  </footer>
+
+  <script src="about.js"></script>
+</body>
 </html>
