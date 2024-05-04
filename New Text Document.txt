@@ -1,0 +1,29 @@
+/*slideshow styles*/
+
+.slideshow {
+  margin-top: 100px;
+  scale: .5;
+  text-align: center;
+}
+
+
+
+.slide {
+  min-width: 100%;
+  scroll-snap-align: start;
+}
+
+
+.slide p{
+  font-family: oswald;
+  size: 200px;
+}
+
+.caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+}
