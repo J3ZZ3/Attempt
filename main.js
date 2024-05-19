@@ -24,31 +24,3 @@ bioDiv.appendChild(profilePicture);
 bioDiv.appendChild(bioText);
 
 bioSection.appendChild(bioDiv);
-// Define portfolio data with pictures
-const projects = [
-    {
-      title: "Calculator",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      image: "assets/calculator.jpg"
-    },
-    {
-      title: "Digital Clock",
-      technologies: ["HTML", "CSS", "JavaScript"],
-      image: "assets/digi.jpg"
-    }
-  ];
-  
-  // Render projects
-  const portfolioSection = document.getElementById('portfolio-section');
-  
-  projects.forEach(project => {
-    const projectDiv = document.createElement('div');
-    projectDiv.classList.add('project');
-    projectDiv.innerHTML = `
-      <h2>${project.title}</h2>
-      <img src="${project.image}" alt="${project.title}">
-      <p>Technologies used: ${project.technologies.join(', ')}</p>
-    `;
-    portfolioSection.appendChild(projectDiv);
-  });
-  

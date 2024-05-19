@@ -35,7 +35,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 18px;
 }
@@ -70,6 +70,7 @@ footer {
 
 .bio {
   margin-left: 20px;
+  float: left;
 }
 
 .bio img {
@@ -83,30 +84,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-}
-
-.project {
-  border: 1px solid #000000;
-  border-radius: none;
-  background-color: white;
-  scale: 0.75;
-}
-
-.project img {
-  width: 100%;
-  border-radius: 5px;
-  scale: 1;
-}
-
-.project h2 {
-  margin-top: 10px;
-  color: #000000;
-  scale: 1;
-}
-
-.project p {
-  color: #000000;
-  background-color: white;
 }
 
 #social-links {
